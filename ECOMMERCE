@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cervecería BLACK - Ecommerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .feature {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .feature h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cervecería BLACK</h1>
+            <p>Ecommerce de cervezas artesanales</p>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="feature">
+                <h2>Comunicación eficiente</h2>
+                <p>Nuestra plataforma ofrece una comunicación clara y eficiente con nuestros clientes, garantizando una experiencia de compra satisfactoria.</p>
+            </div>
+            <div class="feature">
+                <h2>Automatización de procesos</h2>
+                <p>Utilizamos sistemas automatizados para agilizar los procesos de compra y entrega, asegurando una experiencia sin complicaciones para nuestros clientes.</p>
+            </div>
+            <div class="feature">
+                <h2>Personalización de la comunicación</h2>
+                <p>Adaptamos nuestra comunicación según las preferencias y el historial de compras de cada cliente, ofreciendo una experiencia personalizada y única.</p>
+            </div>
+            <div class="feature">
+                <h2>Mejora de la visibilidad</h2>
+                <p>Optimizamos nuestra plataforma para mejorar la visibilidad de nuestros productos, asegurando que nuestros clientes encuentren fácilmente lo que están buscando.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cervecería BLACK. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
